@@ -41,14 +41,14 @@ sython.start()
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@saythonh"))
+        await sython(JoinChannelRequest("@LLOYY"))
     except BaseException:
         pass
         
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@sy_tem"))
+        await sython(JoinChannelRequest("@LLOYY"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@K_K_Q_L"))
+        await sython(JoinChannelRequest("@LLOYY"))
     except BaseException:
         pass  
         
@@ -228,7 +228,7 @@ async def _(event):
     await event.delete()
     pic = await rr9r7.download_media()
     await sython.send_file(
-        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : 𝘀𝘆𝘁𝗵𝗼𝗻"
+        "me", pic, caption=f"تـم حفظ الصورة او الفيديو الذاتي هنا : SCARO"
     )
 
 
@@ -456,11 +456,11 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-♔ 𝐬𝐲𝐭𝐡𝐨𝐧 𝐢𝐬 𝐰𝐨𝐫𝐤𝐢𝐧𝐠
+♔ SCARO 𝐢𝐬 ging
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐬𝐲𝐭𝐡𝐨𝐧
+❖╎SCARO
 ❖╎𝐝𝐞𝐯𝐥𝐨 : hussam.fa
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @saythonh
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @LLOYY
 ❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
